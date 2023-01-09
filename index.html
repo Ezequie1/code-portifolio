@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ezequiel - Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet"></link>
+    <script src="https://kit.fontawesome.com/70755a9900.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="flex fontNav divNav">
+            <a class="tituloPage">Portifólio</a>
+            <div class="flex fontNav" id="hamburg">
+                <a href="#" class="aNav">Home</a>
+                <a href="#sectionTwo" class="aNav">Sobre mim</a>
+                <a href="#sectionFour" class="aNav">Certificações</a>
+                <a href="#sectionThree" class="aNav">Experiência</a>
+                <a href="#sectionFive" class="aNav">Projetos</a>
+            </div>
+            <i class="fa-solid fa-bars fa-1x" id="iconBurg" onclick="openNav()"></i>
+        </div> 
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" onclick="closeNav()">Home</a>
+        <a href="#sectionTwo" onclick="closeNav()">Sobre mim</a>
+        <a href="#sectionFour" onclick="closeNav()">Certificações</a>
+        <a href="#sectionThree" onclick="closeNav()">Experiência</a>
+        <a href="#sectionFive" onclick="closeNav()">Projetos</a>
+    </div>
+
+    <section class="home" id="sectionOne"> 
+        <div class="flex divHello">
+            <div class="divInfos">
+                <p class="subtitulos">Olá, eu sou</p>
+                <p class="tituloNome">Ezequiel Alves</p>
+                <p class="subtitulos">Desenvolvedor back-end & front-end.</p>
+                <div class="flex flexButtons">
+                    <a href="https://www.linkedin.com/in/ezequielamoura/">
+                        <div class="divbutton1">
+                            <button class="botoes"><img class="icones" src="svg/linkedin.svg"><span>LinkedIn</span></button>
+                        </div> 
+                    </a>
+                    <a href="https://github.com/Ezequie1">
+                        <div class="divbutton2">
+                            <button class="botoes"><img class="icones" src="svg/Vector.svg"><span>GitHub</span></button>
+                        </div> 
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img class="poligonoSVG" src = "svg/polygon.svg">
+            </div> 
+        </div>
+    </section>
+    <section class="infoPessoal section2" id="sectionTwo">
+        <div class="flex home disFlex">
+            <div class="divFoto">
+                <img class="foto" src="images/Foto de Ezequiel Alves (2).jpg">
+            </div>                
+            <div class="divTextos">
+                <p class="tituloSection">Sobre mim</p>
+                <p class="textoLocal">São Paulo, Brasil</p>
+                <p class="textoInfos">
+                    Me chamo Ezequiel, tenho 20 anos e moro na zona sul de São Paulo. Iniciei minha jornada neste mundo de tecnologia quando ainda era pequeno, por ser uma criança que cresceu em frente a tela acessando sites para jogar e passar o tempo, ficava intrigado como que o computador funcionava e como digitar www.clickjogos.com me levava a um site com diversos jogos que amava... Foi aí que tudo começou, pesquisando mais aprendi HTML e CSS, logo em seguida Java Script até que conheci Java que foi a linguagem que me conquistou e trabalho até hoje.
+                </p>
+
+                <div class="flex">
+                    <a href="https://www.facebook.com/profile.php?id=100008485382775">
+                        <img class="icones iconsInfo" src="svg/facebook.svg">
+                    </a>
+                    <a href="https://www.instagram.com/ezequiel___alves/">
+                        <img class="icones iconsInfo" src="svg/instagram.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ezequielamoura/">
+                        <img class="icones iconsInfo" src="svg/linkedinCor.svg">
+                    </a>
+                </div>
+                <div class="flex divButtonsInfo">
+                    <a href="https://drive.google.com/u/0/uc?id=1lWEkxm3G4OnhveSr-hRqSwR1kFRT46HA&export=download">
+                        <div class="divbutton1">
+                            <button class="botoes"><img class="icones buttons2" src="svg/download-cloud.svg"><span class="buttons2">Currículo</span></button>
+                        </div>  
+                    </a>
+                    <a href="mailto:ezequielalves1021@gmail.com">
+                        <div class="divbutton2">
+                            <button class="botoes"><img class="icones buttons2" src="svg/mail.svg"><span class="buttons2">Email</span></button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
+    <section class="section3" id="sectionThree">
+        <p class="tituloS3">Experiências</p>
+        <div class="flex disFlex">
+            <div class="scrollHorizontal">
+                <div class="itensExp spaceR itensExpSelected itensExpSelectedHorizontal" id="inmetrics" onclick="expSelecionada(this, 0)">Inmetrics</div>
+                <div class="itensExp spaceR" onclick="expSelecionada(this, 1)">Padaria</div>
+                <div class="itensExp spaceR" onclick="expSelecionada(this, 2)">Alpha Magazzine</div>
+            </div>
+            <div id="divExperiencia">
+                <div class="flex maxWidth">
+                    <p class="textoLocal">Trainee Tecnico l</p>
+                    <p class="dataJob">Abr 2022 - Atual</p>
+                </div>
+                <div class="maxWidth">
+                    <p class="empresaNome">Inmetrics</p>
+                    <p class="textoInfos">
+                        Atuo na parte de engenharia de software, em específico no back-end, entregando ao cliente soluções tecnológicas e eficientes conforme suas prioridades e requisitos.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="section4" id="sectionFour">
+        <p class="tituloS3">Formações e certificações</p>
+        <div class="flex initial disFlex">
+            <div class="scrollDivCert scrollHorizontal">
+                <div class="itensExp spaceR itensExpSelected itensExpSelectedHorizontal" id="institutoProa" onclick="certSelecionada(this, 0)">Instituto Proa</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 1)">Ka Solution</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 2)">Inmetrics</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 3)">Alura</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 4)">Qulture Rocks</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 5)">C6 Bank</div>
+                <div class="itensExp spaceR" onclick="certSelecionada(this, 6)">Oracle</div>
+            </div>
+            <div id="divCertificacao">
+                <div class="flex maxWidth">
+                    <p class="textoLocal">Proprofissão 4.0</p>
+                    <p class="dataJob">Mar 2021 - Jul 2021</p>
+                </div>
+                <div class="maxWidth">
+                    <p class="empresaNome">Instituto Proa</p>
+                    <p class="textoInfos">
+                        Participei do curso proprofissão 4.0 do Instituto Proa, o qual me preparou com conhecimentos em Java, HTML, CSS e JavaScript, para assim poder se inserir no mercado de trabalho. Desde então venho aprimorando os conhecimentos obtidos durante o curso, e os aplicando no dia a dia de trabalho.
+                    </p>
+                </div>
+                <div class="flex end">
+                    <p class="space">Veja no meu</p>
+                    <a href="https://linkedin.com/in/ezequielamoura/details/education/">
+                        <div class="divbutton1 ">
+                            <button class="botoes"><img class="icones buttons2" src="svg/linkedin.svg"><span class="buttons2">LinkedIn</span></button>
+                        </div>  
+                    </a>             
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5" id="sectionFive">
+        <div class="marginSection marginTop">
+            <p class="tituloSection">Projetos</p>
+            <div class="flex disFlex">
+                <div class="divProjectsWidth">
+                    <div class="divFotoProjetos">
+                        <img src="images/ProjectBank.png" class="fotoProjects" height="200px" width="530px">
+                    </div>
+                    <p class="textoLocal">Project Bank</p>
+                    <p class="textoInfos">Projeto criado para microempreendedores poderem fazer o controle de seus negócios, sendo possivel fazer o resgistro diário das vendas. O projeto tambem mostra o relatório de vendas.</p>
+                    <div class="flex">
+                        <img class="svgTecnologias" src="svg/css3-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/html-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/java-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/spring-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/pgsql-svgrepo-com.svg">
+                    </div>
+                    <a href="https://github.com/Ezequie1/Project-PersonalBank">
+                        <div class="buttonProjects ">
+                            <button class="botoes"><img class="icones buttons2" src="svg/code-svgrepo-com.svg"><span class="buttons2">Código</span></button>
+                        </div>  
+                    </a> 
+                </div>
+                <div class="divProjectsWidth">
+                    <div class="divFotoProjetos">
+                        <img src="images/ProjectBlog.png" class="fotoProjects" height="200px" width="530px">
+                    </div>
+                    <p class="textoLocal">Project Blog</p>
+                    <p class="textoInfos">Blog que traz a possibilidade de criar posts, lê-los, editar e excluir. O projeto foi inspirado nos desafios da Codelandia, no entanto, os evolui para poderem ter um back-end.</p>
+                    <div class="flex">
+                        <img class="svgTecnologias" src="svg/css3-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/html-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/java-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/spring-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/pgsql-svgrepo-com.svg">
+                    </div>
+                    <a href="https://github.com/Ezequie1/ProjectOne-Blog-/tree/main/projectBlog">
+                        <div class="buttonProjects ">
+                            <button class="botoes"><img class="icones buttons2" src="svg/code-svgrepo-com.svg" style="color: #fff;"><span class="buttons2">Código</span></button>
+                        </div>  
+                    </a> 
+                </div>
+            </div>
+            <div class="flex marginTop disFlex">
+                <div class="divProjectsWidth">
+                    <div class="divFotoProjetos">
+                        <img src="images/ProjectCRUDAngular.png" class="fotoProjects" height="200px" width="530px">
+                    </div>
+                    <p class="textoLocal">CRUD Angular + Spring</p>
+                    <p class="textoInfos">Projeto desenvolvido a partir da ideia de um site que lista, cria, deleta e atualiza cursos sobre programação. O projeto foi criado a partir das aulas da Loiane Groner no YT.</p>
+                    <div class="flex">
+                        <img class="svgTecnologias" src="svg/angular-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/spring-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/html-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/css3-svgrepo-com.svg">
+                    </div>
+                    <a href="https://github.com/Ezequie1/CRUDSpringBootAndAngular">
+                        <div class="buttonProjects ">
+                            <button class="botoes"><img class="icones buttons2" src="svg/code-svgrepo-com.svg"><span class="buttons2">Código</span></button>
+                        </div>  
+                    </a> 
+                </div>
+                <div class="divProjectsWidth">
+                    <div class="divFotoProjetos">
+                        <img src="images/ProjectNLW.png" class="fotoProjects" height="200px" width="530px">
+                    </div>
+                    <p class="textoLocal">Nlw eSports</p>
+                    <p class="textoInfos">Projeto criado a partir da Next Level Week(NLW) feito pela Rockeat Seat, o projeto consiste em um site e uma aplicação mobile que permite os usuarios colocarem os jogos preferidos, em que horário e dia da semana jogam, alem de poder colocar o Discord para uma call quando quiserem jogar.</p>
+                    <div class="flex">
+                        <img class="svgTecnologias" src="svg/typescript-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/html-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/node-svgrepo-com.svg">
+                        <img class="svgTecnologias" src="svg/css3-svgrepo-com.svg">
+                    </div>
+                    <a href="https://github.com/Ezequie1/Nlw_eSports">
+                        <div class="buttonProjects ">
+                            <button class="botoes"><img class="icones buttons2" src="svg/code-svgrepo-com.svg" style="color: #fff;"><span class="buttons2">Código</span></button>
+                        </div>  
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divLoadingText">
+        <p class="textLoading">Em breve mais projetos...</p>
+    </div>
+    <div class="divLoading">
+        <div class="loader">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <div class="flex rodape">
+        <p class="nameRodape">@ 2022 - Ezequiel Alves</p>
+        <p class="otherRodape">Powered by <img src="svg/Rodape.svg"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

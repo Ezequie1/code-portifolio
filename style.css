@@ -1,0 +1,1205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+
+.navBar{
+    height: 100px;
+    margin:  0px 180px 0px 180px;
+    border-bottom: 2px solid #151515;
+}
+
+
+.poligonoSVG{
+    position: absolute;
+    z-index: -10;
+    width: 1150px;
+    top: 10px;
+    right: 0px;
+}
+
+body{
+    margin: 0;
+    background-color: #121212;
+}
+
+.flex{
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+:target {
+    scroll-margin-top: .8em;
+}
+
+.fontNav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color: #C4C4C4;
+}    
+
+.divInfos{
+    margin-top: 200px;
+}
+
+.icones{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.nameRodape{
+    margin-left: 180px;
+}
+
+.otherRodape{
+    margin-right: 180px;
+}
+
+.divNav{
+    justify-content: space-between;
+}
+
+.divbutton1{
+    background: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+#iconBurg{
+    display: none;
+}
+
+.divbutton2{
+    margin-left: 40px;
+    background: linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.botoes{
+    height: 47px;
+    width: 150px;
+    margin: 2px;
+    background-color: #151515;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.buttonProjects{
+    background: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    margin-top: 30px;
+}   
+
+.botoes:hover{
+    background-color: transparent;
+}
+
+.foto{
+    height: 360px;
+    width: 360px;
+}
+
+.tituloPage{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+    color: #00D2DF;
+}
+
+.divButtonsInfo{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aNav{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.tituloS3{
+    margin-top: 100px;
+    margin-bottom: 30px;   
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.aNav:hover{    
+    cursor: pointer;
+    color: #00D2DF; 
+}
+
+.itensExp{
+    width: 193px;
+    height: 55px;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing: 0em;
+    text-align: left;
+    border-left: 3px solid #333232;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.maxWidth{
+    justify-content: space-between;
+}
+
+.itensExp:hover{
+    border-left: 3px solid #00d2df;
+    background-color: #333232;
+}   
+
+.dataJob{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.itensExpSelected{
+    border-left: 3px solid #00d2df;
+}
+
+.empresaNome{
+    color: #00d2df;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.divProjectsWidth{
+    width: 100%;
+}
+
+.home{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.infoPessoal{
+    margin-top: 390px;
+    background-color: #09090B;
+}
+
+.subtitulos{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.tituloNome{
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00d2df;
+    margin: 20px 0px 20px 0px;
+}
+
+.section2{
+    height: 600px;
+}
+
+.spaceR{
+    margin-right: 20px;
+}
+
+.section5{
+    width: 100%;
+    height: 1350px;
+    background-color: #09090B;
+}
+
+.marginSection{
+    margin:  0px 180px 0px 180px;
+}
+
+.marginTop{
+    padding-top: 100px;
+}
+
+.initial{
+    display: flex;
+    justify-content: initial;
+}
+.space{
+    margin-right: 15px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    align-items: center;
+    margin: 10px 5px 0px 5px;
+    color: #fff;
+}
+
+.end{
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.section3{
+    margin:  0px 180px 0px 180px;
+    height: 385px;
+}
+
+.section4{
+    margin:  0px 180px 0px 180px;
+    height: 500px;
+}
+
+.divFoto{
+    border-left: 3px solid #00D2DF;
+    height: 360px;
+    width: 360px;
+    border-radius: 4px;
+    margin: 100px 183px 100px 0px;
+}
+
+.divFotoProjetos{
+    border-left: 3px solid #00D2DF;
+    border-radius: 4px;
+    height: 200px;
+    width: 530px;
+}
+
+.fotoProjects{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.foto{
+    height: 360px;
+    width: 360px;
+    border-radius: 4px;
+}
+
+.rodape{
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    color: #C4C4C4;
+    font-family: 'Inter';
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+}
+
+.divLoadingText{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #09090B;
+    width: 100%;
+    color: #fff;
+    align-items: center;
+}
+
+
+.divLoading{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: #09090B;
+    width: 100%;
+    color: #fff;
+}
+
+.loader{
+    width: 100px;
+    height: 100px;   
+    border-radius: 50%;
+    perspective: 800px;
+}
+
+.loader .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.loader .item:nth-child(1){
+    border-bottom: 6px solid #00D2DF;
+    transform: rotateX(35deg) rotateY(-45deg);
+    animation: rotate-one 2s linear infinite;
+}
+
+.loader .item:nth-child(2){
+    border-bottom: 6px solid #D24074;
+    transform: rotateX(35deg) rotateY(55deg);
+    animation: rotate-two 2s linear infinite;
+}
+
+.loader .item:nth-child(3){
+    border-bottom: 6px solid #6518B4;
+    transform: rotateX(50deg) rotateY(-10deg);
+    animation: rotate-three 2s linear infinite;
+}
+
+@keyframes rotate-one{
+    to{
+        transform: rotateX(35deg) rotateY(-45deg)
+        rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-two{
+    to{
+        transform: rotateX(50deg) rotateY(10deg)
+        rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-three{
+    to{
+        transform: rotateX(35deg) rotateY(55deg)
+        rotateZ(360deg);
+    }
+}
+
+.svgTecnologias{
+    height: 32px;
+    width: 32px;
+    margin-right: 20px;
+}
+
+.divTextos{
+    margin-top: 100px;
+}
+
+.textoLocal{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.textLoading{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.buttons2{
+    height: 19px;
+    width: 19px;
+    font-size: 18px;
+}
+
+.textoInfos{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-right: 50px;
+}
+.tituloSection{
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.iconsInfo{
+    transition-duration: 0.4s;
+    height: 26px;
+    width: 26px;
+}
+
+.iconsInfo:hover{
+    height: 30px;
+    width: 30px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#divExperiencia{
+    width: 100%;
+}
+  
+.sidenav a {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    text-align: left;
+    padding: 8px 0px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.4s;
+}
+
+.sidenav a:hover{
+    color: #00d2df
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1660px)  { 
+
+    .section2{
+        height: 640px;
+    }
+
+    .divLoadingText{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1600px)  { 
+
+    .section2{
+        height: 660px;
+    }
+}
+
+@media only screen and (max-width: 1520px)  { 
+
+    .section2{
+        height: 720px;
+    }
+}
+
+@media only screen and (max-width: 1420px)  { 
+
+    .section2{
+        height: 760px;
+    }
+
+    
+    .divFotoProjetos{
+        height: 200px;
+        width: 490px;
+    }
+
+    .fotoProjects{
+        height: 200px;
+        width: 490px;
+    }
+}
+
+
+@media only screen and (max-width: 1366px)  {
+
+    .navBar, .marginSection, .section3, .section4, .home{
+        margin:  0px 100px 0px 100px;
+    }
+
+    .poligonoSVG{
+        position: absolute;
+        z-index: -10;
+        width: 800px;
+        top: 130px;
+        right: 0px;
+    }
+
+    .section2{
+        height: 700px;
+    }
+
+    .infoPessoal{
+        margin-top: 260px;
+        background-color: #09090B;
+    }
+
+    .divFoto, .foto{
+        height: 300px;
+        width: 300px;
+    }
+
+    .divFoto{
+        margin: 100px 83px 100px 0px;
+    }
+
+    .divExperiencia{
+        width: 700px;
+    }
+
+    .divLoadingText{
+        padding-top: 100px;
+    }
+    
+    .maxWidth {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1250px)  {
+    .maxWidth{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px)  {
+
+    .divFotoProjetos, .fotoProjects{
+        height: 170px;
+        width: 440px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px)  {
+
+    .section2{
+        height: 810px;
+    }
+
+    .divFotoProjetos , .fotoProjects{
+        height: 150px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1050px)  {
+
+    .textoInfos{
+        font-size: 16px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        height: 150px;
+        width: 350px;
+    }
+
+    .poligonoSVG{
+        top: 150px;
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 970px)  {
+
+    .divFoto, .foto{
+        height: 260px;
+        width: 260px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        height: 150px;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 970px)  {
+
+    .divFoto, .foto{
+        height: 220px;
+        width: 220px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        height: 150px;
+        width: 320px;
+    }
+}
+
+
+@media only screen and (max-width: 850px)  {
+
+    .navBar{
+        height: 40px;
+    }
+
+    .navBar, .marginSection, .section3, .section4, .home {
+        margin: 0px 30px 0px 30px;
+    }
+
+    .tituloPage, .aNav, #iconBurg{
+        font-size: 14px;
+        margin-top: 17px;
+    }
+
+    #hamburg{
+        display: none;
+    }
+
+    #iconBurg{
+        display: flex;
+        font-size: 17px;
+    }
+    
+    .subtitulos{
+        font-size: 15px;
+    }
+
+    .tituloNome{
+        font-size: 50px;
+    }
+
+    .divInfos{
+        margin-top: 120px;
+    }
+    
+    .poligonoSVG{
+        width: 500px;
+        right: 0px;
+    }
+
+    .botoes{
+        width: 120px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .tituloSection, .textoLocal{
+        font-size: 18px;
+    }
+
+    .textoInfos{
+        line-height: 18px;
+        font-size: 13px;
+    }
+
+    .divButtonsInfo{
+        margin-top: 20px;
+    }
+
+    .icones{
+        height: 15px;
+    }
+
+    .divFoto, .foto{
+        height: 180px;
+        width: 180px;
+    }
+
+    .buttons2{
+        font-size: 14px;
+    }
+
+    .section2{
+        height: 500px;
+    }
+
+    .tituloS3{
+        margin-top: 50px;
+        font-size: 18px;
+    }
+    
+    .itensExp {
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        transition-duration: 0.4s;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #fff;
+        letter-spacing: 0em;
+        text-align: left;
+        border-left: 3px solid #333232;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .empresaNome{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .textoLocal{
+        margin-bottom: 10px;
+    }
+
+    .maxWidth{
+        width: 600px;
+    }
+
+    .section3{
+        height: 300px;
+    }
+    
+    .section4{
+        height: 400px;
+    }
+
+    .section5{
+        height: 980px;
+    }
+
+    .marginTop{
+        padding-top: 50px;
+    }
+
+    .disflex{
+        display: block;
+    }
+
+    .divFotoProjetos{
+        height: 150px;
+        width: 320px;
+    }
+
+    .fotoProjects{
+        height: 150px;
+        width: 320px;
+    }
+
+    .buttonProjects{
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .divLoading{
+        height: 200px;
+    }
+
+    .rodape {
+        height: 70px;
+        font-size: 12px;
+    }
+
+    .nameRodape{
+        margin-left: 30px;
+    }
+
+    .otherRodape{
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 750px)  {
+
+    .maxWidth, .textoInfos, .empresaNome{
+        width: 100%;
+    }
+
+    .divExperiencia{
+        width: 100%;
+    }
+
+    .section2{
+        height: 530px;
+    }
+
+    .textoInfos{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+
+    .divFotoProjetos, .fotoProjects{
+        width: 280px;
+    }
+
+    .divProjectsWidth{
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px)  {
+
+    .section2{
+        height: 550px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+
+    .divFoto, .divTextos{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 550px)  {
+
+    .divFoto{
+        margin: 50px 0px 30px 155px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        width: 100%;
+        height: 170px;
+    }
+
+    .divFotoProjetos{
+        margin-top: 25px;
+    }
+
+    .divProjectsWidth{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .poligonoSVG{
+        width: 400px;
+    }
+
+    .disFlex{
+        display: inline;
+    }
+    
+    .section2{  
+        display: flex;
+        justify-content: center;
+        height: 620px;
+    }
+
+    .divTextos{
+        margin-top: 0px;
+    }
+
+    .tituloSection{
+        margin-bottom: 0px;
+    }
+
+    .scrollHorizontal{
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .scrollHorizontal::-webkit-scrollbar{
+        display: none;
+    }
+
+    .itensExp{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-left: 0px;
+        margin: 0px;
+        padding: 0px 10px 0px;
+        border-bottom: 3px solid #333232;
+    }
+
+    .itensExp:hover{
+        border-left: none;
+        border-bottom: 3px solid #00d2df;
+        background-color: #333232;
+    }   
+
+    .itensExpSelectedHorizontal{
+        border-bottom: 3px solid #00d2df;
+    }
+
+    .section5{
+        height: 1800px;
+    }
+
+    .divLoadingText{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 525px)  {
+    .divFoto{
+        margin: 50px 0px 30px 130px;
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+    .divFoto{
+        margin: 50px 0px 30px 115px;
+    }
+}
+
+@media only screen and (max-width: 450px)  {
+    .divFoto{
+        margin: 50px 0px 20px 115px;
+    }
+
+    .section2{
+        height: 640px;
+    }
+}
+
+@media only screen and (max-width: 425px)  {
+
+    .divInfos{
+        margin-top: 150px;
+    }
+
+    .flexButtons{
+        margin-top: 40px;
+    }
+
+    .divFoto{
+        margin: 50px 0px 20px 95px;
+    }
+
+    .section4{
+        height: 440px;
+    }
+
+    .section5{
+        height: 1850px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    .tituloNome{   
+        font-size: 45px;
+    }
+
+    .section2{
+        height: 650px;
+    }
+
+    .divFoto{
+        margin: 50px 0px 20px 80px;
+    }
+}
+
+@media only screen and (max-width: 400px)  {
+    .divFoto{
+        margin: 50px 0px 20px 80px;
+    }
+
+    .section2{
+        height: 660px;
+    }
+
+    .poligonoSVG{
+        width: 350px;
+        top: 170px;
+    }
+
+    .tituloNome{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .divInfos{
+        margin-top: 170px;
+    }
+
+    .tituloS3, .textoLocal, .dataJob, .empresaNome, .space{
+        font-size: 13px;
+    }
+
+    .itensExp{
+        font-size: 10px;
+    }
+
+    .section5{
+        height: 1850px;
+    }
+
+    .section2{
+        height: 690px;
+    }
+
+    .section5{
+        height: 1880px;
+    }
+
+    .section4{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 385px)  {
+    .divFoto{
+        margin: 50px 0px 20px 75px;
+    }
+}
+
+@media only screen and (max-width: 375px)  {
+    .divFoto{
+        margin: 50px 0px 20px 70px;
+    }
+}
+
+@media only screen and (max-width: 362px)  {
+    .divFoto{
+        margin: 50px 0px 20px 62px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .section5{
+        height: 1860px;
+    }
+
+    .divFotoProjetos, .fotoProjects{
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width: 330px)  {
+    .divFoto{
+        margin: 50px 0px 20px 55px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .subtitulos{
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .divFoto{
+        margin: 50px 0px 20px 40px;
+    }
+
+    .poligonoSVG{
+        height: 300px;
+        width: 300px;
+    }
+
+    .tituloNome{
+        font-size: 36px;
+    }
+
+    .divInfos{
+        margin-top: 190px;
+    }
+
+    .flexButtons{
+        margin-top: 40px;
+    }
+
+    .divbutton2{
+        margin-left: 20px;
+    }
+
+    .section2{
+        height: 710px;
+    }
+}
+
+/*
+.typing-animation {
+    animation: blinkCursor 600ms infinite normal,
+     typing 2s steps(12) 0.5s normal both;
+}
+
+.tituloNome{
+    border-right: 2px solid #333232;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 453px;
+    }
+}
+
+@keyframes blinkCursor{
+    from{
+        border-right-color: #fff;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+*/
